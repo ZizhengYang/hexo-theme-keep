@@ -13,6 +13,14 @@
 
         <div class="page-main-content-middle">
 
+            <% if (page.title === 'whoWeAre') { %>
+
+                <div class="main-content">
+
+                </div>
+
+            <% } else { %>
+
             <div class="main-content">
 
                 <% if (is_home()) { %>
@@ -40,7 +48,10 @@
                     <%- partial('_partial/page-template') %>
 
                 <% } %>
+
             </div>
+
+            <% } %>
 
         </div>
 

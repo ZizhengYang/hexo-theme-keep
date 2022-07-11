@@ -2,9 +2,9 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: Keep Theme
-  author: Keep Team
-  url: https://keep.xpoet.cn/
+  title: Linkmoo
+  author: Zizheng Yang
+  url:
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img:
 
@@ -37,7 +37,7 @@ style:
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img: /images/bg.svg # You can use local image or image external link
     description: Keep writing and Keep loving.
 
@@ -68,7 +68,9 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 menu:
   Home: /
-  Archives: /archives
+  Who We Are: /whoWeAre
+  Solution: /solution
+  Blog: /archives
   # Categories: /categories
   # Tags: /tags
   # Links: /links
